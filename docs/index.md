@@ -3,15 +3,15 @@ layout: home
 
 hero:
   name: "Anvsa"
-  text: "一个胡言乱语的天地"
-  tagline: "欢迎来到我的精神角落"
+  text: "记录与思考"
+  tagline: "用文字对抗遗忘"
   actions:
     - theme: brand
       text: 开始阅读
       link: /content/开始/第一次提交
     - theme: alt
       text: 关于我
-      link: /content/杂谈/大压抑时代
+      link: /about
 
 features:
   - title: 随想
