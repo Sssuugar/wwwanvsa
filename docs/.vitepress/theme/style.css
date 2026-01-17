@@ -1,0 +1,22 @@
+/* 导航栏标题特效 */
+:root {
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: -webkit-linear-gradient(120deg, #bd34fe 30%, #41d1ff);
+}
+
+.VPNavBarTitle .title {
+  background: -webkit-linear-gradient(315deg, #bd34fe 25%, #41d1ff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 900;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  transition: all 0.3s ease;
+}
+
+.VPNavBarTitle .title:hover {
+  filter: drop-shadow(0 0 5px rgba(189, 52, 254, 0.5));
+  transform: scale(1.05);
+  cursor: pointer;
+}

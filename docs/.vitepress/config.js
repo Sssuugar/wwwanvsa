@@ -37,9 +37,10 @@ function getSidebar() {
 }
 
 export default {
-    title: 'WwwAnvsa Docs',
-    description: 'A runoob-like documentation site',
+    title: 'Anvsa',
+    description: '一个胡言乱语的天地',
     themeConfig: {
+
         sidebar: getSidebar(),
         nav: [
             { text: 'Home', link: '/' },
