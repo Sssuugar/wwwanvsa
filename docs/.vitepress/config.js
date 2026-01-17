@@ -39,6 +39,7 @@ function getSidebar() {
 export default {
     title: 'Anvsa',
     description: '一个胡言乱语的天地',
+    outDir: '../dist',
     themeConfig: {
 
         sidebar: getSidebar(),
