@@ -11,7 +11,7 @@ hero:
       link: /content/开始/第一次提交
     - theme: alt
       text: 关于我
-      link: /content/我的故事/大压抑时代
+      link: /content/杂谈/大压抑时代
 
 features:
   - title: 随想
