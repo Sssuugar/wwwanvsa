@@ -3,9 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "docs:dev": "npm run fix:md && vitepress dev docs",
+    "docs:build": "npm run fix:md && vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "lint:md": "node scripts/lint-md.js",
+    "fix:md": "node scripts/lint-md.js --fix"
   },
   "dependencies": {
     "vue": "^3.2.13"
